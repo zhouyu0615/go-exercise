@@ -18,7 +18,7 @@ func main() {
 
 continentArray := []string {"North America", "Asia", "South America", "Europe", "Africa", "Australia"}
 
-   fmt.Println(continentArray)
+   // fmt.Println(continentArray)
 
    sort.Strings(continentArray)
    fmt.Println(continentArray)
