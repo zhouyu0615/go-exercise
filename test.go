@@ -3,6 +3,7 @@ package main
 import "fmt"
 import "sort"
 
+# for test
 
 func main() {
    fmt.Println("Hello, World!")
@@ -18,7 +19,7 @@ func main() {
 
 continentArray := []string {"North America", "Asia", "South America", "Europe", "Africa", "Australia"}
 
-   fmt.Println(continentArray)
+   // fmt.Println(continentArray)
 
    sort.Strings(continentArray)
    fmt.Println(continentArray)
