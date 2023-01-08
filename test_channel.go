@@ -11,7 +11,7 @@ func goroutine1(ch chan int) {
 		ch <- i
 		if i%2 == 1 {
 			fmt.Println("go1:", i)
-		}g
+		}
 	}
 }
 
